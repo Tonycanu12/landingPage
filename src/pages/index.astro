@@ -1,0 +1,26 @@
+---
+import Welcome from '../components/Welcome.astro';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/header.astro';
+import Banner from '../components/headerBanner.astro';
+import Content from '../components/content.astro';
+import '../styles/tailwind.css';
+import { imageConfig } from 'astro:assets';
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+	<!-- Header -->
+	<div class=" w-full bg-[#f6f6f6] ">
+		<Header />
+		<Banner />
+	</div>
+	<!-- Content -->
+	<div class=" w-full flex-1 min-h-0">
+		<Content/>
+	</div>
+	<!-- Footer -->
+	<div class=" w-full h-12 flex items-center justify-center">Footer</div>
+</Layout>

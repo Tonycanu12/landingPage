@@ -1,0 +1,20 @@
+{
+  "name": "grubby-group",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@astrojs/tailwind": "^6.0.2",
+    "astro": "^5.12.0",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "@astrojs/vue": "^5.1.0",
+    "vue": "^3.5.17"
+  }
+}
