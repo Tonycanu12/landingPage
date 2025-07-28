@@ -4,6 +4,7 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/header.astro';
 import Banner from '../components/headerBanner.astro';
 import Content from '../components/content.astro';
+import Company from '../components/company.astro';
 import '../styles/tailwind.css';
 import { imageConfig } from 'astro:assets';
 
@@ -12,15 +13,31 @@ import { imageConfig } from 'astro:assets';
 ---
 
 <Layout>
-	<!-- Header -->
-	<div class=" w-full bg-[#f6f6f6] ">
-		<Header />
-		<Banner />
-	</div>
-	<!-- Content -->
-	<div class=" w-full flex-1 min-h-0">
-		<Content/>
-	</div>
-	<!-- Footer -->
-	<div class=" w-full h-12 flex items-center justify-center">Footer</div>
+  <!-- Header + Banner -->
+  <div class="w-full bg-[#f6f6f6] min-h-[60vh]">
+    <Header />
+    <Banner />
+  </div>
+
+  <!-- Productos -->
+  <div id="productos" class="scroll-mt-[120px] w-full min-h-[100vh] bg-white">
+    <Content />
+  </div>
+
+  <!-- Nosotros / Company -->
+  <div id="company" class="scroll-mt-[120px] w-full min-h-[100vh] bg-[#f6f6f6] pt-20  border-4">
+    <Company />
+  </div>
+
+  <!-- Footer -->
+  <div class="w-full h-12 flex items-center justify-center bg-gray-200">
+    Footer
+  </div>
 </Layout>
+
+<style>
+	html {
+  		scroll-behavior: smooth;
+	}
+
+</style>

@@ -2,14 +2,22 @@
 import Ofert from "./contentPage/ofert.astro";
 import ProductA from "./contentPage/products.astro";
 import Products from "./contentPage/products.vue";
+import dataproducts from "../data/products.json";
 ---
 <div class=" w-[80vw] mx-auto">
     <div class="w-full  text-center text-2xl font-bold text-[#1abc9c] mt-2">Nuestros Productos </div>
     <div class="grid gap-4 mt-4 md:grid-cols-4 m-4">
-       
-        <Products client:load title="Producto 1" description="es un productio bin perron" precio=" Q 2.67" img="/img/productos/pollo.jpg"/>
-        
-        
+        {dataproducts.map((product) => (
+            <Products 
+                client:load 
+                title={product.nombre} 
+                description={product.descripcion} 
+                precio= '00.00'
+                idProduct={product.id}
+                img='/img/productos/pollo.jpg"'
+            />
+        ))}
+        <!-- <Products client:load title="Producto 1" description="es un productio bin perron" precio=" Q 2.67" img="/img/productos/pollo.jpg"/> -->
     </div>
     
 </div>

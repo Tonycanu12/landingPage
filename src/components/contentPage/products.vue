@@ -7,7 +7,9 @@ const props = defineProps({
   title: String,
   description: String,
   precio: String,
+  idProduct:Number,
   img: String,
+  
 });
 
 const showModal = ref(false);
@@ -40,16 +42,16 @@ function close() {
       {{description}}
 
     </p>
-
+<!-- 
     <p class="text-[#1abc9c] font-bold text-2xl mb-4">
     <span>Precio</span> {{precio}}
-    </p>
+    </p> -->
 
     <!-- Botón anclado abajo sin cambiar de tamaño -->
     <div class="mt-auto">
       <button
         @click="consoleFuction"
-        class="w-full bg-[#1abc9c] text-white font-bold py-2 rounded-xl hover:bg-[#16a085] transition duration-300">
+        class="w-full bg-[#ca5e61] text-white font-bold py-2 rounded-xl hover:bg-[#a02d31] transition duration-300">
         Ver detalles
       </button>
     </div>
@@ -63,6 +65,7 @@ function close() {
   :title="title"
   :description="description"
   :precio="precio"
+  :idProduct="idProduct"
   @close="close"
 />
 </template>

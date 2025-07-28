@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "nombre": "TENDER CUARTO TRASERO",
+    "descripcion": "Cuarto trasero de pollo marca TENDER, ideal para distribución y venta.",
+    "detalles": {
+      "pesoPorPieza": 0.70,
+      "piezasPorBolsa": 10,
+      "pesoPorBolsa": 10,
+      "bolsasPorCaja": 4,
+      "pesoPorCaja": 40
+    },
+    "origen": "100% IMPORTADO DE ESTADOS UNIDOS",
+    "urlImagen": "https://example.com/tender-cuarto-trasero.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "FOSTER CUARTO TRASERO",
+    "descripcion": "Cuarto trasero de pollo marca FOSTER, calidad premium importado.",
+    "detalles": {
+      "pesoPorPieza": 1.30,
+      "piezasPorBolsa": 10,
+      "pesoPorBolsa": 10,
+      "bolsasPorCaja": 4,
+      "pesoPorCaja": 40
+    },
+    "origen": "100% IMPORTADO DE ESTADOS UNIDOS",
+    "urlImagen": "https://example.com/foster-cuarto-trasero.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "PECO CUARTO TRASERO",
+    "descripcion": "Cuarto trasero de pollo marca PECO con más piezas por bolsa.",
+    "detalles": {
+      "pesoPorPieza": 0.43,
+      "piezasPorBolsa": 14,
+      "pesoPorBolsa": 10,
+      "bolsasPorCaja": 4,
+      "pesoPorCaja": 40
+    },
+    "origen": "100% IMPORTADO DE ESTADOS UNIDOS",
+    "urlImagen": "https://example.com/peco-cuarto-trasero.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "KOCH FOODS CUARTO TRASERO",
+    "descripcion": "Producto con mayor cantidad de piezas por bolsa, marca KOCH FOODS.",
+    "detalles": {
+      "pesoPorPieza": 0.65,
+      "piezasPorBolsa": 17,
+      "pesoPorBolsa": 10,
+      "bolsasPorCaja": 4,
+      "pesoPorCaja": 40
+    },
+    "origen": "100% IMPORTADO DE ESTADOS UNIDOS",
+    "urlImagen": "https://example.com/kochfoods-cuarto-trasero.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "MARJAC CUARTO TRASERO",
+    "descripcion": "Cuarto trasero de pollo marca MARJAC, porciones ligeras por pieza.",
+    "detalles": {
+      "pesoPorPieza": 0.30,
+      "piezasPorBolsa": 12,
+      "pesoPorBolsa": 10,
+      "bolsasPorCaja": 4,
+      "pesoPorCaja": 40
+    },
+    "origen": "100% IMPORTADO DE ESTADOS UNIDOS",
+    "urlImagen": "https://example.com/marjac-cuarto-trasero.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "PEORIA CAJA AGRANEL",
+    "descripcion": "Producto en caja a granel ideal para grandes cantidades.",
+    "detalles": {
+      "pesoPorCaja": 50
+    },
+    "origen": "100% IMPORTADO DE ESTADOS UNIDOS",
+    "urlImagen": "https://example.com/peoria-caja-agranel.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "PIEL DE CERDO ECOFROST",
+    "descripcion": "Piel de cerdo en presentación de bolsas con corte de 9/9 mm.",
+    "detalles": {
+      "pesoPorBolsa": 5.5,
+      "bolsasPorCaja": 4,
+      "pesoPorCaja": 22,
+      "groson": "9/9 MM"
+    },
+    "origen": "100% IMPORTADO DE BÉLGICA",
+    "urlImagen": "https://example.com/piel-cerdo-ecofrost.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "PAPAS FARM FRITES",
+    "descripcion": "Papas fritas precocidas corte 10 mm marca FARM FRITES.",
+    "detalles": {
+      "pesoPorBolsa": 5.5,
+      "bolsasPorCaja": 5,
+      "pesoPorCaja": 27.5,
+      "groson": "10 MM"
+    },
+    "origen": "100% IMPORTADO DE BÉLGICA",
+    "urlImagen": "https://example.com/papas-farm-frites.jpg"
+  }
+]
