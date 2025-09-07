@@ -46,6 +46,7 @@ function close() {
         <hr class="m-4">
         <h5 class="text-xl font-bold mb-2 ">Precentacion del producto</h5>
         <div class="grid grid-cols-2 gap-2" >
+          
           <div 
            v-for = "[clave, valor] in Object.entries(product.detalles) " :key = clave
           class="w-full border bg-slate-100  rounded-lg p-2">

@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "nombre": "TENDERBIRD PIEZAGRANDE TENDER CUARTO TRASERO",
+        "descripcion":"descricion del producto",
+        "detalles": {
+            "pesoPorPieza": 0.70,
+            "piezasPorBolsa": 10,
+            "pesoPorBolsa": 10,
+            "bolsasPorCaja": 4,
+            "pesoPorCaja": 40
+        },
+        "origen": "100% IMPORTADO DE ESTADOS UNIDOS",
+        "urlImagen": "https://example.com/tenderbird-piezagrande-tender-cuarto-trasero.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "TENDERBIRD TENDER PECHUGA",
+        "descripcion":"descricion del producto",
+        "detalles": {
+            "pesoPorPieza": 0.50,
+            "piezasPorBolsa": 12,
+            "pesoPorBolsa": 6,
+            "bolsasPorCaja": 6,
+            "pesoPorCaja": 36
+        },
+        "origen": "100% IMPORTADO DE ESTADOS UNIDOS",
+        "urlImagen": "https://example.com/tenderbird-tender-pechuga.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "TENDERBIRD TENDER MUSLO",
+        "descripcion":"descricion del producto",
+        "detalles": {
+            "pesoPorPieza": 0.80,
+            "piezasPorBolsa": 8,
+            "pesoPorBolsa": 6.4,
+            "bolsasPorCaja": 5,
+            "pesoPorCaja": 32
+        },
+        "origen": "100% IMPORTADO DE ESTADOS UNIDOS",
+        "urlImagen": "https://example.com/tenderbird-tender-muslo.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "TENDERBIRD TENDER ALA",
+        "descripcion":"descricion del producto",
+        "detalles": {
+            "pesoPorPieza": 0.30,
+            "piezasPorBolsa": 20,
+            "pesoPorBolsa": 6,
+            "bolsasPorCaja": 6,
+            "pesoPorCaja": 36
+        },
+        "origen": "100% IMPORTADO DE ESTADOS UNIDOS",
+        "urlImagen": "https://example.com/tenderbird-tender-ala.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "TENDERBIRD TENDER PIERNA",
+        "descripcion":"descricion del producto",
+        "detalles": {
+            "pesoPorPieza": 0.90,
+            "piezasPorBolsa": 6,
+            "pesoPorBolsa": 5.4,
+            "bolsasPorCaja": 5,
+            "pesoPorCaja": 27
+        },
+        "origen": "100% IMPORTADO DE ESTADOS UNIDOS",
+        "urlImagen": "https://example.com/tenderbird-tender-pierna.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "TENDERBIRD TENDER ENTERO",
+        "descripcion":"descricion del producto",
+        "detalles": {
+            "pesoPorPieza": 1.00,
+            "piezasPorBolsa": 4,
+            "pesoPorBolsa": 4,
+            "bolsasPorCaja": 6,
+            "pesoPorCaja": 24
+        },
+        "origen": "100% IMPORTADO DE ESTADOS UNIDOS",
+        "urlImagen": "https://example.com/tenderbird-tender-entero.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "TENDERBIRD TENDER CUARTO DELANTERO",
+        "descripcion":"descricion del producto",
+        "detalles": {
+            "pesoPorPieza": 0.60,
+            "piezasPorBolsa": 10,
+            "pesoPorBolsa": 6,
+            "bolsasPorCaja": 5,
+            "pesoPorCaja": 30
+        },
+        "origen": "100% IMPORTADO DE ESTADOS UNIDOS",
+        "urlImagen": "https://example.com/tenderbird-tender-cuarto-delantero.jpg"
+    }
+]

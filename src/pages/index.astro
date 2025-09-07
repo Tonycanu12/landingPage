@@ -15,17 +15,21 @@ import { imageConfig } from 'astro:assets';
 <Layout>
   <!-- Header + Banner -->
   <div class="w-full bg-[#f6f6f6] min-h-[60vh]">
-    <Header />
-    <Banner />
+    <div class="fixed top-0 left-0 w-full z-50">
+      <Header />
+    </div>
+    <div class="pt-20">
+      <Banner />
+    </div>
   </div>
 
   <!-- Productos -->
-  <div id="productos" class="scroll-mt-[120px] w-full min-h-[100vh] bg-white">
+  <div id="productos" class="scroll-mt-[120px] w-full min-h-[100vh] bg-white overflow-auto">
     <Content />
   </div>
 
   <!-- Nosotros / Company -->
-  <div id="company" class="scroll-mt-[120px] w-full min-h-[100vh] bg-[#f6f6f6] pt-20  border-4">
+  <div id="company" class="scroll-mt-[120px] w-full min-h-[100vh] bg-[#f6f6f6] pt-10 ">
     <Company />
   </div>
 

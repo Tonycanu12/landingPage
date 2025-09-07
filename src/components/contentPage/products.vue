@@ -23,12 +23,13 @@ function close() {
   }
 </script>
 <template>
-<div class="h-full w-full rounded-xl bg-[#f6f6f6] shadow-xl">
+<div class="h-full w-full rounded-xl bg-[#f6f6f6] shadow-xl hover:scale-105 transition-transform duration-300">
   <!-- Imagen -->
   <div class="bg-[#f6f6f6] border rounded-t-xl h-3/5 overflow-hidden flex items-center justify-center">
+ 
     <img 
       class="object-cover h-full w-full"
-      src="img/productos/pollo.jpg"
+      :src="img"
       alt=""
     >
   </div>
@@ -39,7 +40,7 @@ function close() {
 
     <!-- Descripción con scroll si es muy larga -->
     <p class="min-h-[4rem] max-h-[4.5rem] overflow-y-auto text-sm mb-2">
-      {{description}}
+      {{description}} 
 
     </p>
 <!-- 
