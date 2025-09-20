@@ -6,15 +6,11 @@ import Banner from '../components/headerBanner.astro';
 import Content from '../components/content.astro';
 import Company from '../components/company.astro';
 import '../styles/tailwind.css';
-import { imageConfig } from 'astro:assets';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-  <!-- Header + Banner -->
-  <div class="w-full bg-[#f6f6f6] min-h-[60vh]">
+  <!-- Header fijo -->
+  <div class="w-full bg-[#cb393eb7] min-h-[60vh]">
     <div class="fixed top-0 left-0 w-full z-50">
       <Header />
     </div>
@@ -24,24 +20,29 @@ import { imageConfig } from 'astro:assets';
   </div>
 
   <!-- Productos -->
-  <div id="productos" class="scroll-mt-[120px] w-full min-h-[100vh] bg-white overflow-auto">
+  <section
+    id="productos"
+    class="scroll-mt-[120px] w-full bg-white py-20"
+  >
     <Content />
-  </div>
+  </section>
 
   <!-- Nosotros / Company -->
-  <div id="company" class="scroll-mt-[120px] w-full min-h-[100vh] bg-[#f6f6f6] pt-10 ">
+  <section
+    id="company"
+    class="scroll-mt-[120px] w-full bg-[#f6f6f6] py-20"
+  >
     <Company />
-  </div>
+  </section>
 
   <!-- Footer -->
-  <div class="w-full h-12 flex items-center justify-center bg-gray-200">
-    Footer
-  </div>
+  <footer class="w-full h-12 flex items-center justify-center bg-gray-200">
+    Footerasdasds
+  </footer>
 </Layout>
 
 <style>
-	html {
-  		scroll-behavior: smooth;
-	}
-
+  html {
+    scroll-behavior: smooth;
+  }
 </style>
