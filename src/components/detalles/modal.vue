@@ -31,7 +31,7 @@ function close() {
   <div v-if="show" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
     @click.self="close">
     <div
-      class="bg-white p-6 m-4 rounded-lg relative flex flex-col justify-between w-[90vw] max-w-[90vw] md:w-[40vw] md:max-w-[40vw]">
+      class="bg-white p-6 m-4 rounded-lg relative flex flex-col justify-between w-[80vw] max-w-[80vw] md:w-[80vw] md:max-w-[80vw] lg:w-[60vw] lg:max-w-[60vw] xl:w-[50vw] xl:max-w-[50vw]">
       <h2 class="text-2xl font-bold mb-2">{{ product.nombre }}</h2>
       <button @click="close" class="absolute top-2 right-2 text-gray-500 hover:text-black">
         ✖
